@@ -1,0 +1,126 @@
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    border-bottom: 2px solid #0066ff;
+    box-sizing: border-box;
+}
+
+input[type=text]:focus {
+    border: 3px solid #0066ff;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: white;
+    color: #0066ff;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 1px solid;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #0066ff;
+    color: white;
+    border-color: blue;
+}
+
+div.layout {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+
+}
+div.container {
+    width: 600px;
+    height: 500px;
+    margin: 0px auto;
+    border: 1px solid gray;
+    line-height: 150%;
+    margin-top: 50px; 
+}
+
+div.containerabout {
+    width: 600px;
+    height: 500px;
+    border : 1px solid blue;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px; 
+
+}
+
+div.header, div.footer {
+    padding: 0.5em;
+    color: white;
+    background-color: #0066ff;
+    clear: left;
+    text-align: center;
+}
+
+h1.header {
+    padding: 0;
+    margin: 0;
+    text-decoration: underline;
+}
+
+div.left {
+    float: left;
+    width: 160px;
+    margin: 0;
+    padding: 1em;
+
+}
+
+div.content {
+    margin-left: 190px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0066ff;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #3366ff;
+}
+li a.active {
+    background-color: #0000ff ;
+    color: white ;
+}
+
+pre {
+    text-decoration: line-through;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.video {
+    margin: auto;
+    width: 560px;
+}

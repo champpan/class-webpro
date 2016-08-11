@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="hw1_css.css">
+	<title>Register</title>
+</head>
+<body>
+
+	<div class="header">
+		<h1>My website</h1>
+    <div class="menu-container">
+			<ul class="menu">
+				<li><a href="homepage.html">Home</a></li>
+				<li><a href="details.html">About</a></li>
+        <li><a href="contactme.html">Contact me</a></li>
+			</ul>
+		</div>
+	</div>
+
+  <h1 class="sub-header">Register</h1>
+
+	<div class="container" id="regis-container">
+		<form action="homepage.html" id="register">
+
+			<p>Username: <input type="text" placeholder="Enter username"></p>
+
+			<p>Password: <input type="password"placeholder="Enter password"></p>
+
+			<p><q>Confirm</q> Password: <input type="password" placeholder="Enter again"></p>
+
+			<p>E-mail: <input type="email" placeholder="example@mail.com" ></p>
+
+			<p>Picture: <input type="file"></p>
+
+			<p>Sex: Man<input type="radio" name="sex" value="M"> | Woman<input type="radio" name="sex" value="W"></p>
+
+			<p>
+				Relation:
+				<select name="relation">
+
+					<option selected value="Friend">Friend</option>
+
+					<option value="Teacher">Teacher</option>
+
+					<option value="Family">Family</option>
+
+				</select>
+			</p>
+
+			<p id="regis-button"><input type="submit" value="Register"></p>
+		</form>
+	</div>
+
+</body>
+</html>

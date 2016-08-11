@@ -1,0 +1,47 @@
+<!doctype HTML>
+<html>
+
+<head>
+  <title>
+    Login
+  </title>
+  <link rel="stylesheet" href="stylesheet.css">
+
+</head>
+
+<body>
+  <script>
+    localStorage.setItem("name" , "");
+  </script>
+  <div><center>
+  <form name="login" method="post" action="Store.html">
+    First name:<br>
+    <select id="gender">
+      <option>Mr.</option>
+      <option>Mrs.</option>
+      <option>Ms.</option>
+    </select>
+    <input type="text" name="firstname"><br>
+    Last name:<br>
+    <input type="text" name="lastname"><br>
+  </form>
+  <input type="button" value="Go to website" onclick="myFunction()">
+</center></div>
+
+  <script>
+    function myFunction() {
+      var e = document.getElementById("gender");
+      var gender = e.options[e.selectedIndex].value;
+      var a=document.forms["login"]["firstname"].value;
+      var b=document.forms["login"]["lastname"].value;
+      if(a=="" || b=="")
+        window.alert("please fill your name");
+      else {
+        var c=gender.concat(a," ",b);
+        localStorage.setItem("name", c);
+        window.location.href="Store";
+      }
+    }
+  </script>
+</body>
+</html>

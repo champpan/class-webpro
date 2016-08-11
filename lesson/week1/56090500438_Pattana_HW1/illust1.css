@@ -1,0 +1,100 @@
+body {
+	background-color: #00008B;
+	background-image: url(http://hdwallpaperbackgrounds.net/wp-content/uploads/2015/10/Grand-Theft-Auto-Vice-City-Logo-HD-Wallpapers-1366x768.jpg);
+	background-size: 930px 560px;
+}
+
+#header {
+	font-family: "verdana" ;
+	background-color: #778899;
+	color: #7CFC00;
+}
+
+#right {
+	border: 3px solid #800000;
+	background-color: #FDF5E6;
+	float: right;
+	display: block;
+	width: 230px;
+    height: 210px;
+}
+
+.right {
+	background-color: #FDF5E6;
+}
+
+.right li {
+	font-weight: bold;
+}
+
+#r2 {
+	display: block;
+	float: left;
+	width: 270px;
+    height: 550px;
+    border: 3px solid;
+	background-color: #FDF5E6;
+    padding-top: 10px;
+    padding-bottom: 45px;
+}
+
+.header2 {
+	font: verdana;
+	color: #D2691E;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+
+.r2 {
+	color: #00FF00;
+	padding-left: 5px;
+}
+
+#mid {
+	padding-left: 230px;
+}
+
+li {
+	display: inline;
+	border-style: solid;
+	background-color: #2F4F4F;
+}
+
+#i1 {
+	background-color: #2F4F4F;
+	color: #FFA500;
+}
+
+#i2 {
+	background-color: #87CEEB;
+	color: #FF0000;
+}
+
+#rules {
+	height: 350px;
+	width: 700px;
+	padding-top: 20px;
+	border-style: solid;
+	background-color: #7CFC00;
+}
+
+.rules {
+	background-color: #808000;
+	font-weight: bolder;
+}
+
+#footer {
+	height: 100px;
+	width: 1300px;
+	background-color: #00CED1;
+}
+
+.summary {
+	background-color: #00CED1;
+}
+
+
+
+
+

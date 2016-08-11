@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title> Ragnarok Online Job </title>
+</head>
+<body>
+
+  <table style="width:100%">
+    <tr>
+      <th>Job 1</th>
+    </tr>
+    <tr>
+      <td>Merchant</td>
+    </tr>
+    <tr>
+      <td>Thief</td>
+    </tr>
+    <tr>
+      <td>Acolyte</td>
+    </tr>
+    <tr>
+      <td>Magician</td>
+    </tr>
+    <tr>
+      <td>Swordman</td>
+    </tr>
+    <tr>
+      <td>Archer</td>
+    </tr>
+  </table>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+
+body {
+    background-color: black;
+    background-repeat: repeat-x;
+}
+
+
+#Project_Ashe_Video {
+    height: 350px;
+    weight: 350px;
+   
+}
+
+#Text_Project {
+    position: relative;
+    border-style: A hidden border.;
+    border-width: 900px;
+    
+    margin: 25px;
+    border-radius: 50%;
+    transition: 0.3s;
+    
+    outline: 0px solid red;
+    outline-offset: 15px;
+     
+    
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    
+    background-color: #FFFFFF;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    y-index: 0;
+    x-index: 0;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

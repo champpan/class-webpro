@@ -1,0 +1,191 @@
+body {
+	background-color: #00008B;
+	background-image: url(http://hdwallpaperbackgrounds.net/wp-content/uploads/2015/10/Grand-Theft-Auto-Vice-City-Logo-HD-Wallpapers-1366x768.jpg);
+	background-size: 930px 560px;
+}
+
+#header {
+	font-family: "verdana" ;
+	background-color: #778899;
+	color: #7CFC00;
+	font-size: 120%
+	font-stretch: condensed;
+}
+
+#right {
+	border: 4px solid #800000;
+	background-color: #FFD700;
+	float: right;
+	display: block;
+	width: 230px;
+    height: 270px;
+    text-align: center;
+}
+
+.right {
+	background-color: #FDF5E6;
+}
+
+.right li {
+	font-weight: bold;
+	font-variant: small-caps;
+}
+
+#question1 {
+	text-align: left;
+	width: 300px;
+    height: 200px;
+    border-style: solid;
+    background-color: #FDF5E6;
+    padding-left: 5px;
+}
+
+#mid {
+	padding-left: 140px;
+}
+
+.menu{
+	padding-top: 10px;
+}
+
+#mid li {
+	display: inline;
+	border-style: solid;
+	background-color: #2F4F4F;
+}
+
+#history {
+	background-color: #008000;
+	width: 950px;
+    height: 360px;
+    text-align: center;
+    border-top: thick double #20B2AA;
+    border-bottom: thick double #20B2AA;
+    border-left: thick double #20B2AA;
+    border-right: thick double #20B2AA;
+    border-style: dotted;
+}
+
+.header2 {
+	font-weight: bolder;
+	border: 3px solid #8B4513;
+}
+
+#theme {
+	background-color: #FF4500;
+	width: 950px;
+    height: 260px;
+}
+
+.header3 {
+	font-family: "Arial", Georgia, Serif;
+	text-align: center;
+	border: 3px solid #FF0000;
+	border-width: 5px;
+}
+
+.settinghead {
+	font-family: "Times New Roman", Georgia, Serif;
+	font-weight: bold;
+	text-align: center;
+	border: 3px solid #C71585;
+	border-width: 15px;
+}
+
+ol li{
+  	font-family: "Times New Roman", Georgia, Serif;
+	font-weight: bold;
+	border: 4px solid #7CFC00;
+	border-right: #7CFC00;
+}
+
+.settinghead ol li {
+	border-right: #7CFC00;
+}
+
+#gameplay {
+	border: 4px solid #0000CD;
+	width: 850px;
+    height: 150px;
+    background-color: #2E8B57;
+}
+
+.header4 {
+	text-align: center;
+	color: #8B4513;
+	background-color: #2E8B57;
+}
+
+.summaryplay {
+	color: #ADFF2F;
+}
+
+#platform {
+	border: 4px solid #DC143C;
+	width: 850px;
+    height: 500px;
+    background: #DC143C; 
+}
+
+.header5 {
+	font-family: "Arial", Georgia, Serif;
+	text-align: center;
+	color: 	#2F4F4F;
+	border: 4px solid #008000;
+	border-width: 10px;
+}
+
+.platform {
+	border: 4px solid #008000;
+	border-width: 10px;
+	font-weight: bold;
+	color: 	#191970;
+}
+
+ul {
+	font-family: "Times New Roman", Georgia, Serif;
+	font-weight: bold;
+	border: 4px solid #7CFC00;
+	border-right: #7CFC00;
+	color: 	#9ACD32;
+}
+
+#evolution {
+	width: 940px;
+    height: 90px;
+    border: 4px solid #808000;
+	border-right: #808000;
+	background-color: #FF6347;
+}
+
+.header6 {
+	font-family: "Times New Roman", Georgia, Serif;
+	color:	#4B0082;
+}
+
+.evolution {
+	font-family: "Times New Roman", Georgia, Serif;
+	color:	#4B0082;
+}
+
+#address {
+	padding-top: 360px;
+	background-color: #FFA500;
+	border: 2px solid #800080;
+}
+
+#footer {
+	background-color: #4169E1;
+}
+
+#footer p{
+	font-style: italic;
+}
+
+.summary{
+	font-style: bold;
+	font-family: "Times New Roman", Georgia, Serif;
+	font-style: italic;
+}
+
+

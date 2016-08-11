@@ -1,0 +1,26 @@
+body {
+    background-color:#e6ffff;
+    font-family: tahoma;
+    font-size: 16px;
+}
+
+.picture {
+  width: 1350px;
+  height: 150px;
+  content:url("header1.jpg");
+}
+
+div.image {
+   width:1350px;
+   height:150px;
+   content:url("header2.jpg");
+}​
+
+.luke
+{
+    font: 100% Verdana, Arial, Helvetica, sans-serif;
+	  height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}

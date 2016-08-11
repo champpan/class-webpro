@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			<meta charset="UTF-8" />
+			<link rel="stylesheet" type="text/css" href="style.css">
+			<title> Welcome </title>
+	</head>
+	<body>
+		<div class = "top">
+			<img src = "MapleStory_Logo.png" align = "right" hspace = 50 vspace = 17>
+		</div><br>
+		<form action="tmp.html">
+			<fieldset>
+				<legend>Personal information:</legend>
+				First name:<br>
+				<input id="firstName" type="text" name="firstname" value=""><br>
+				Last name:<br>
+				<input id="lastName" type="text" name="lastname" value="">
+				<br><br>
+				<input id="btnName" type="submit" value="Submit" onclick="popup()">
+				<script>
+					function popup() 
+					{
+						var x = document.getElementById("firstName").value;
+						var y = document.getElementById("lastName").value;
+						alert("Welcome " + x + " " +y);
+					}
+				</script>
+			</fieldset>
+		</form>
+		<br><hr><br>
+		<font size = "100"><mark><i><u>Welcome</u></i></mark></font><br>
+		<span style="color:blue"><strong>Welcome two</strong><br>
+		<cite>Welcome three</cite><br>
+		<var>Welcome four</var><br>
+		<em>Welcome five</em><br>
+		<code>Welcome six</code><br>
+		<samp>Welcome seven</samp><br>
+		<kbd>Welcome eight</kbd><br>
+		<del>Welcome nine</del><br></span>
+		<marquee>Welcome ten</marquee><br>
+		<marquee direction="right" scrolldelay="25">Welcome eleven</marquee><br>
+		<marquee behavior="alternate" scrollamount="50">Welcome twelve</marquee><br><hr><br>
+		<div class = "bottom">
+			<audio id = "bgm" controls autoplay loop>
+				<source src="MaplestoryTheme.mp3" type="audio/mpeg" align = "right">
+				<script>
+					var music = document.getElementById("bgm");
+					music.volume = 0.3;
+				</script>
+			</audio>
+		</div>
+	</body>
+</html>

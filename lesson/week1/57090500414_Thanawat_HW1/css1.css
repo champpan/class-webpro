@@ -1,0 +1,37 @@
+.picBure{
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+
+.picBure:hover {
+	opacity: 1.0;
+	filter: alpha(opacity=100);
+}
+
+.underLine {
+	text-decoration: underline;
+}
+
+.uppercase {
+	  word-spacing: 1px;
+	  letter-spacing: 1px;
+	  text-indent: -50px;
+    text-transform: uppercase;
+}
+
+.direction {
+	direction:inherit;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.float {
+	float:left;
+}
+
+.display {
+	display: block;
+	margin: 0 auto;
+}

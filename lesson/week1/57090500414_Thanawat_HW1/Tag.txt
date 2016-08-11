@@ -1,0 +1,44 @@
+html
+head
+body
+meta charset
+title
+p
+br
+center
+img src
+div
+hr
+a href
+link rel
+style
+table 
+tr
+td
+th
+marquee
+h3
+b
+i
+mark
+ins
+strong
+cite
+ul
+li
+ol
+dl
+dt
+dd
+span 
+!doctype 
+<!-- --> 
+abbr 
+code 
+button 
+form
+legend
+fieldset 41
+
+http://www.w3schools.com/tags/ref_byfunc.asp 
+http://www.w3schools.com/cssref/#color

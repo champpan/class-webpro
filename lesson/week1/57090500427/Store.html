@@ -1,0 +1,78 @@
+<!doctype HTML>
+<html>
+
+<head>
+  <title>
+    I Love More
+  </title>
+  <link rel="stylesheet" href="stylesheet.css">
+
+</head>
+
+<body>
+  <div class="name">
+  <p><span id="home" style="color: red;"></span><span id="name" style="color: white;"></span> <span id="login" style="color: red;"></span></p>
+
+  <script>
+    if(localStorage.getItem("name")==""){
+      var home = "Home";
+      var re = home.link("Store");
+      var str = "Login";
+      var result = str.link("HW1");
+      document.getElementById("home").innerHTML = re;
+      document.getElementById("login").innerHTML = result;
+    }else{
+      var home = "Home";
+      var re = home.link("Store");
+      var str = "Logout";
+      var result = str.link("HW1");
+      var name = " Welcome : ".concat(localStorage.getItem("name"));
+      document.getElementById("home").innerHTML = re;
+      document.getElementById("name").innerHTML = name;
+      document.getElementById("login").innerHTML = result;
+      }
+  </script>
+  </div>
+  <table class="table01">
+    <tr>
+      <th>
+        <header><h1 class="center"><a href="Store"> I Love More </a></h1></header>
+      </th>
+    </tr>
+    <tr>
+      <td>
+        <table class="table02">
+          <caption><p class="center"><strong><mark>please select your movie</mark></strong></p></caption>
+          <tr>
+            <th class="head">
+              <p1><a href="avatar">Avatar</a></p1>
+            </th>
+            <td style="text-align: right; color: red;">
+              <pre>IMDb <i>7.9/10</i></pre>
+            </td>
+          </tr>
+          <tr>
+            <td class="poster" colspan="2">
+              <a href="poster" target="_blank">
+                <img src="avatar.jpg" alt="Avatar" style="width:350px;">
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <ul>
+                <li>PG-13</li>
+                <li>2h 42min</li>
+                <li>Action , Adventure , Fantasy</li>
+                <li>18 December 2009 (USA)</li>
+              </ul>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+
+  </table>
+</body>
+</html>

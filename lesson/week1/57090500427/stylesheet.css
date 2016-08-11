@@ -1,0 +1,46 @@
+h1 {  font-family: tahoma;
+      font-size:500%;
+      text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+      color: white;}
+body {  background-image: url("background.jpg");
+        background-size: cover;
+        background-attachment: fixed;}
+p { font-size: 150%;
+    color: white;}
+a { text-decoration: none; }
+a:visited { color: inherit; }
+a:hover { text-decoration: underline; }
+.center { text-align:center; }
+.table01 {  width: 80%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.6);
+            margin: 0px auto;
+            }
+.table02 {  width: 90%;
+            height: 90%;
+            background-color: rgb(38, 38, 38);
+            margin: 0px auto;
+            border: 1px solid black;
+            }
+.poster { text-align: center;
+          padding: 15px;}
+.head {   text-align: left;
+          font-size: 150%;
+          padding: 15px;
+          color: rgb(255, 117, 26);}
+blockquote {  color: rgb(140, 140, 140);
+              text-align: left;}
+span { color: rgba(140, 140, 140, 0.3);}
+ul {  color: rgb(140, 140, 140);
+      list-style-type: none;}
+pre {   font-size: 20px;}
+.name { font-size: 25px;
+        background-color: black;
+        color: white;
+        margin: -38px auto;
+        text-align: right;}
+.border1 {  border-top: solid 3px;
+            border-bottom: solid 3px;
+            border-color: red;}
+.border2 {  border-top: solid 3px;
+            border-color: red;}

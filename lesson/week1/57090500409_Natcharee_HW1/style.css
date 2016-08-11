@@ -1,0 +1,146 @@
+body.main{
+	background-image: url("bg_main.jpg");
+	background-attachment: fixed;
+}
+body.head{
+	background-color: #c1e3fd;
+}
+
+h1{
+	font-size: 42px;
+	text-shadow: 4px 2px #0090ff;
+	color:#0144db;
+}
+h2{
+	font-size:20px
+}
+h3{
+	font-size: 16px;
+	text-align: center;
+	color: #064a9d;
+}
+.small{
+	font-size:18px;
+}
+
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #065898;
+	position: fixed;
+    top: 0;
+	left:0;
+    width: 100%;
+	float: left;
+}
+
+.menu2{
+    float: left;
+	border-right: 2px solid #bbb;
+}
+
+.menu2 a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.menu2 a:hover{
+    background-color: #0090ff;
+}
+
+.button{
+    border: none;
+    color: white;
+    padding: 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 0;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #76a1d7;
+}
+.button1{
+	background-color: #065898;
+	border-radius: 12px;
+	width: 50px;
+}
+
+.dropbtn{
+    background-color: #065898;
+    color: white;
+    padding: 14px 16px;
+	position: fixed;
+	top: 0;
+    border: none;
+    cursor: pointer;
+	font-size: 16px;
+	border-right: 1px solid #bbb;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+	top: 25px;
+    background-color: #f1f1f1;
+    min-width: 160px;
+}
+.dropdown-content a{
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover{
+	background-color: #b8defb
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: #0090ff;
+}
+
+.omg{
+    background-color: white;
+    width: 600px;
+    padding: 15px 15px;
+	border-radius: 18px;
+	margin: auto;
+}
+
+table, th, td{
+    border: 1px solid black;
+	margin: auto;
+	text-align: center;
+	background-color:white;
+}
+
+ul.a{
+    list-style-type: square;
+	text-align:left;
+}
+
+.tt{
+	padding: 20px;
+	font-size:22px;
+	color:white;
+	background-color:#004eff;
+}
+
+.music{
+	position:fixed;
+	left:0;
+	top:3px;
+	height: 30px;
+	width:45%;
+}

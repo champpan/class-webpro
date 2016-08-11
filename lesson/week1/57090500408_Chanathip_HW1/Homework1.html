@@ -1,0 +1,51 @@
+<!doctype HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel ="stylesheet" href ="styles_Homework1.css">
+    <title>Home</title>
+	</head>
+	<body>
+  <ul>
+    <li><a class="active" href="Homework1.html">Home</a></li>
+    <li><a href=Homework1_about.html>About</a></li>
+    <li><a href=Homework1_page2.html>Main</a></li>
+  </ul>
+
+	<div class="container">
+  	<div class="header"><h1 class="header">Head</h1></div>
+
+  	<div class="left">
+  		  <p>JUST type something in right box------------></p>
+        <em>and click <b>SUBMIT Button</b> </em>
+        <marquee behavior="scroll" direction="left" scrollamount="80" scrolldelay="500">
+        <pre>it doesn't work anyway</pre>
+        </marquee>
+  	</div>
+
+  	<div class="content">
+      <div class="layout">
+  		  <form action="Homework1_page2.html">
+    		  <label for="fname">First Name</label>
+    		  <input type="text" id="fname" name="firstname">
+    		  <label for="lname">Last Name</label>
+    		  <input type="text" id="lname" name="lastname">
+          <input type="radio" name="gender" value="male" checked> Male<br>
+          <input type="radio" name="gender" value="female"> Female<br>
+          <input type="radio" name="gender" value="other"> Other
+
+    		  <select id="status" name="status">
+      			<option value="teacher">Teacher</option>
+      			<option value="student">Student</option>
+    		  </select>
+
+    		<input type="submit" value="Submit" onclick="alert('we recieve your data succesfully dont worry its mean nothing')"">
+
+  		  </form>
+      </div>	
+    </div>
+      <div class="footer">Foot</div>
+	</div>
+
+  </body>
+</html>

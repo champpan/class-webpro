@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body, .ticket-box {
+  height: 100%;
+}
+
+.ticket-box {
+  width: 100%;
+  background-image: url("../images/background_ticket.jpg");
+  background-size: cover;
+}
+
+.ticket-form {
+  width: 980px;
+  height: 600px;
+  margin: 0px auto;
+  background-image: url("../images/Suicide_Squad_Characters.png");
+  background-position: top left;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.ticket-form > form {
+  width: 480px;
+  margin-left: 500px;
+  padding-top: 10px;
+}
+
+.ticket-form > form > fieldset {
+  height: auto;
+  max-height: 400px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border-radius: 20px;
+}
+
+.ticket-form > form > fieldset > legend {
+  margin-left: 10px;
+  padding: 5px 10px;
+}
+
+.theater {
+  position: relative;
+  width: 420px;
+  height: 110px;
+  border-radius: 20px;
+  border: 1px solid white;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+}
+
+.theater h5 {
+  font-size: 18px;
+}
+
+.theater input[type="radio"] {
+  position: absolute;
+  right: 15px;
+  top: 55px;
+}
+
+.seat {
+  padding: 10px 10px;
+}

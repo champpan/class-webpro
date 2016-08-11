@@ -1,0 +1,79 @@
+-------
+HTML
+-------
+<html>
+<head>
+<title>
+<body>
+<link>
+<center>
+<video>
+<audio>
+<a href
+<img src
+target
+<meta
+<p>
+<font size = "3">
+<font color = "gray">
+<font face = "Arial"> 
+<hr 
+<br>
+<TABLE
+CAPTION>
+<TR> 
+<TH>
+TD>
+span
+h1
+2
+3
+4
+5
+6
+<!-- This is a comment -->
+<!DOCTYPE html>
+33 . abbr
+acronym
+<article>
+source
+basefont
+li
+bdi
+big
+
+
+-------
+css
+-------
+background-repeat:
+display
+z-index: 1;
+    y-index: 0;
+    x-index: 0;
+  display: none;
+    position: absolute;
+    background-color: #000000;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+outline: 0px solid red;
+    outline-offset: 15px;
+transition: 0.3s;
+
+border-radius: 50%;
+
+margin: 25px;
+border-style: A hidden border.;
+    border-width: 900px;
+
+height: 350px;
+    weight: 350px;
+
+
+
+
+
+
+
+

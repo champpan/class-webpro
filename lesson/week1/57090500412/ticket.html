@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Get Ticket</title>
+  <link rel="stylesheet" href="css/ticket.css">
+</head>
+<body>
+  <div class="ticket-box">
+    <div class="ticket-form">
+      <form action="success.html" method="post">
+        <h1>Buy Ticket</h1><hr><br>
+        <fieldset>
+          <legend><h3>Theater</h3></legend>
+          <div class="theater">
+            <h5>SF WORLD CINEMA Central World</h5>
+            <p><strong>System : </strong>3D , IMAX , Atmos</p>
+            <p><strong>Language : </strong>English</p>
+            <p><strong>Subtitle : </strong>Thai</p>
+            <p><small><sup>*</sup><del>Free</del> <ins>Popcorn <mark>50 THB</mark></ins></small></p>
+            <input type="radio" name="theater" value="sfw_central_world" checked>
+          </div>
+          <div class="theater">
+            <h5>Emprive Cineclub</h5>
+            <p><strong>System : </strong>2D Digital , Atmos</p>
+            <p><strong>Language : </strong>English</p>
+            <p><strong>Subtitle : </strong>Thai</p>
+            <p><small><sup>*</sup><del>Free</del> <ins>Popcorn <mark>8900 THB</mark></ins></small></p>
+            <input type="radio" name="theater" value="emprive">
+          </div>
+          <div class="theater">
+            <h5>SF CINEMA Terminal 21</h5>
+            <p><strong>System : </strong>2D Digital , IMAX</p>
+            <p><strong>Language : </strong>English</p>
+            <p><strong>Subtitle : </strong>Thai</p>
+            <input type="radio" name="theater" value="sfc_terminal21">
+          </div>
+          <div class="theater">
+            <h5>SFX CINEMA Central Rama 9</h5>
+            <p><strong>System : </strong>2D Digital</p>
+            <p><strong>Language : </strong>English</p>
+            <p><strong>Subtitle : </strong>Thai</p>
+            <input type="radio" name="theater" value="sfc_central_rama9">
+          </div>
+        </fieldset>
+
+        <fieldset class="seat">
+          <legend><h3>Seat</h3></legend>
+          <label>
+            <b>Seat Type : </b>
+            <select name="seat_type">
+              <option value="deluxe">Deluxe 200 THB</option>
+              <option value="premium">Premium 250 THB</option>
+              <optgroup label="Free Popcorn">
+                <option value="sofa">Sofa (2 seats) 500 THB</option>
+              </optgroup>
+            </select>
+          </label><br>
+          <label>
+            <b>Amount : </b>
+            <input type="number" name="amount" min="0" max="20" step="1" value="0">
+          </label><br>
+          <button type="submit">Buy Ticket</button>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,157 @@
+<!doctype HTML>
+<html>
+
+<head>
+  <title>
+    Avatar
+  </title>
+  <link rel="stylesheet" href="stylesheet.css">
+
+</head>
+
+<body>
+  <div class="name">
+  <p><span id="home" style="color: red;"></span><span id="name" style="color: white;"></span> <span id="login" style="color: red;"></span></p>
+
+  <script>
+    if(localStorage.getItem("name")==""){
+      var home = "Home";
+      var re = home.link("Store");
+      var str = "Login";
+      var result = str.link("HW1");
+      document.getElementById("home").innerHTML = re;
+      document.getElementById("login").innerHTML = result;
+    }else{
+      var home = "Home";
+      var re = home.link("Store");
+      var str = "Logout";
+      var result = str.link("HW1");
+      var name = " Welcome : ".concat(localStorage.getItem("name"));
+      document.getElementById("home").innerHTML = re;
+      document.getElementById("name").innerHTML = name;
+      document.getElementById("login").innerHTML = result;
+      }
+  </script>
+  </div>
+  <table class="table01">
+    <tr>
+      <th>
+        <header><h1 class="center"><a href="Store"> I Love More </a></h1></header>
+      </th>
+    </tr>
+    <tr>
+      <td>
+
+        <table class="table02">
+
+          <tr>
+            <th class="head">
+              <p1>Avatar</p1>
+            </th>
+            <td style="text-align: right; color: red;">
+              <pre>IMDb <i>7.9/10</i></pre>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="poster" colspan="2">
+              <iframe width="800" height="500" style="border:none;"
+                src="https://www.youtube.com/embed/5PSNL1qE6VY">
+              </iframe>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <blockquote>PG-13 <span>|</span> 2h 42min <span>|</span> Action , Adventure , Fantasy <span>|</span> 18 December 2009 (USA)</blockquote>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="head border2" colspan="2">
+              <p1>Story</p1>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="border1" colspan="2">
+              <blockquote> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<q>When his brother is
+                killed in a robbery, paraplegic Marine
+                <b>Jake Sully</b> decides to take his place in a mission on the distant
+                world of Pandora. There he learns of greedy corporate figurehead
+                Parker Selfridge's intentions of driving off the native humanoid
+                <sup>"Na'vi"</sup> in order to mine for the precious material scattered
+                throughout their rich woodland. In exchange for the spinal
+                surgery that will fix his legs, Jake gathers intel for the
+                cooperating military unit spearheaded by gung-ho <ins>Colonel
+                Quaritch</ins>, while simultaneously attempting to infiltrate the
+                Na'vi people with the use of an <sub>"avatar"</sub> identity. While Jake
+                begins to bond with the native tribe and quickly falls in love
+                with the beautiful alien <small>Neytiri</small>, the restless Colonel moves
+                forward with his ruthless extermination tactics, forcing the
+                soldier to take a stand - and fight back in an epic battle for
+                the fate of Pandora.</q></blockquote>
+            </td>
+          </tr>
+
+          <tr >
+            <td class="head" colspan="2">
+              <p1>Director & Writer</p1>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="center border1">
+              <img src="james.jpg" width="285">
+            </td>
+            <td class="border1">
+              <blockquote><a href="http://www.imdb.com/name/nm0000116/?ref_=tt_ov_dr" target="_blank">James Cameron</a></blockquote>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="head">
+              <p1>Stars</p1>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="center border2">
+              <img src="sam.jpg">
+            </td>
+            <td class="border2">
+              <blockquote><a href="http://www.imdb.com/name/nm0941777/?ref_=tt_ov_st_sm" target="_blank">Sam Worthington</a></blockquote>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="center">
+              <img src="zoe.jpg" width="285">
+            </td>
+            <td>
+              <blockquote><a href="http://www.imdb.com/name/nm0757855/?ref_=tt_ov_st_sm" target="_blank">Zoe Saldana</a></blockquote>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="center">
+              <img src="sigourney.jpg" width="285">
+            </td>
+            <td>
+              <blockquote><a href="http://www.imdb.com/name/nm0000244/?ref_=tt_ov_st_sm" target="_blank">Sigourney Weaver</a></blockquote>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding: 15px;" colspan="2" class="border2">
+              <p1 style="color: rgb(140, 140, 140);">Credit : <a href="http://www.imdb.com/title/tt0499549/?ref_=ttpl_pl_tt"
+                  style="color: red;" target="_blank"><em>click!</em></a></p1>
+            <td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
